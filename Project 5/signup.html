@@ -1,0 +1,33 @@
+<!-- This is the signup page for the website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+    <header>
+        <h2>Sign up form</h2>
+    </header>
+    <main>
+        <form action="/action.php">
+            <input type="text" placeholder="Email"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="text" placeholder="Username"><br><br>
+            <label for="male">
+                <input type="radio" value="male" name="gender" id="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" value="female" name="gender" id="female">Female
+            </label>
+            <label for="Rather not say">
+                <input type="radio" value="Rather not say" name="gender" id="Rather not say">Rather not say
+            </label><br><br>
+            <input type="checkbox" required>Do you accept the terms and conditions?
+            <br><br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
