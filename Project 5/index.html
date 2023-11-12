@@ -1,0 +1,89 @@
+<!-- This code is according to the project given in the video to make a website for students -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website for Students</title>
+</head>
+<body>
+    <header>
+        <h1>Website for Students</h1>
+    </header>
+    <main>
+        <section>
+            <big>
+                <a href="/signup.html" target="_main">sign up</a>
+                <!-- This link takes the user to the signup form -->
+            </big>
+        </section> <hr>
+        <section>
+            <h3>List of courses</h3>
+            <ol>
+            <!-- The ol tag is used to make an ordered list. The list of items can be written with the li tag -->
+                <li>Web Development</li>
+                <ul>
+                <!-- The ul tag is to make an unordered list. You can also make a list within a list -->
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <li>Programming</li>
+                <ul>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </ol>
+        </section><hr>
+        <section>
+            <table>
+            <!-- This tag is used to make table -->
+                <thead>
+                <!-- thead tag is used to indicate the head of the table -->
+                    <caption>
+                    <!-- The caption is the table's heading -->
+                        <h3>
+                            Topics to be covered
+                        </h3>
+                    </caption>
+                    <tr>
+                    <!-- The tr tag is used to indicate the top bold layer of the table -->
+                        <th>HTML</th>
+                        <!-- th tag is used for the table contents -->
+                        <th>CSS</th>
+                        <th>JS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <!-- tbody is used to indicate the body of the table -->
+                    <tr>
+                    <!-- tr tag is used not the normal contents -->
+                        <td>Basics of a webpage</td>
+                        <td>Basics of styling</td>
+                        <td>Basics of logic</td>
+                    </tr>
+                    <tr>
+                        <td>HTML full course</td>
+                        <td>CSS full course</td>
+                        <td>JS full course</td>
+                    </tr>
+                </tbody>
+            </table><hr>
+        </section>
+        <section>
+            <h3>Related videos</h3>
+            <span>
+                <iframe width="430" height="250" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=pcHRwCsCYD5vVy4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- The iframe tag is used to introduce a part of another website inside your own. For example in our case we have introduced a youtube video in our site. -->
+            </span>
+            <span>
+                <iframe width="430" height="250" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=dPukm0EQEdWApDFt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </span>
+            <span>
+                <iframe width="430" height="250" src="https://www.youtube.com/embed/B7wHpNUUT4Y?si=tP8dhKSBeVfdws-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </span>
+        </section>
+    </main>
+</body>
+</html>
