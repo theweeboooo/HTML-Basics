@@ -1,0 +1,55 @@
+<!-- This code is according to the 5th project given in the video to create a contact me form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Fomr</title>
+</head>
+<body>
+    <header>
+        <H1>Contact Me</H1>
+    </header>
+    <main>
+        <section>
+            <form action="/action.php">
+            <!-- The form tag is used to create forms and the action attribite is refered to the backend file which collects the info from the form -->
+                <h3>Provide the necessary info</h3>
+                <input type="text" placeholder="Email"><br>
+                <!-- The input tag is used to collect info from the user. You can select its type by assigning the required attribute to it. The placeholder attribute refers to the text written in the input area when there is no input from the user. -->
+                <input type="number" placeholder="Phone number"><br>
+                <h5>Contact me via</h5>
+                <label for="whatsapp">
+                <!-- Creating labels is a good way to enhancing the user experience. In this way, the user can select an option just by clicking the label assigned to it. -->
+                    <input type="radio" value="whatsapp" name="contact" id="whatsapp">Whatsapp
+                <!-- The "id" attribute is used to assign a specific id to the component. -->
+                </label>
+                <label for="emal">
+                    <input type="radio" value="emal" name="contact" id="emal">Email
+                </label><br>
+                <h5>You are facing issues with</h5>
+                <label for="issue1">
+                    <input type="checkbox" value="issue1" name="issue" id="issue1">Issue 1
+                </label>
+                <label for="issue2">
+                    <input type="checkbox" value="issue2" name="issue" id="issue2">Issue 2
+                </label>
+                <label for="issue3">
+                    <input type="checkbox" value="issue3" name="issue" id="issue3">Issue 3
+                </label><br>
+                <h5>Were you satisfied with the services?</h5>
+                <select name="select" id="select">
+                <!-- The select tag is used to make dropdowns for the user to select. -->
+                    <option value="none">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Cant say">Can't Say</option>
+                </select><br><br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Feedback"></textarea><br>
+                <!-- To get the feedback from the user in a paragraph form, the textarea tag is used. It's rows and columns can be adjusted accordingly. -->
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
